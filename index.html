@@ -14,9 +14,16 @@
     <div>
       <input id="customname" type="text" placeholder="Enter something" />
     </div>
-    <div>
-      <label for="us">US</label><input id="us" type="radio" name="ukus" value="us" checked />
-      <label for="uk">UK</label><input id="uk" type="radio" name="ukus" value="uk" />
+    <div class="radiocontainer">
+      <h3>English</h3>
+      <div>
+        <label for="us">US</label>
+        <input id="us" type="radio" name="ukus" value="us" checked />
+      </div>
+      <div>
+        <label for="uk">UK</label>
+        <input disabled id="uk" type="radio" name="ukus" value="uk" />
+      </div>
     </div>
     <div>
       <button class="randomize">Generate random story</button>

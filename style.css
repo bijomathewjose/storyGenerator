@@ -26,7 +26,7 @@ input[type="text"] {
 p {
     color: white;
     border: 1px solid white;
-    padding: 25px 50px;
+    padding: 20px 50px;
     border-radius: 15px;
     min-height: 250px;
     visibility: hidden;
@@ -39,7 +39,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px 20px;
+    padding: 20px 20px;
     color: white;
     border-radius: 5px;
 }
@@ -79,5 +79,23 @@ p {
 }
 
 h1 {
-    margin: 50px 0;
+    margin: 40px 0 5px 0;
+}
+
+.radiocontainer {
+    margin: 5px 0;
+    width: 100px;
+    min-height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.radiocontainer div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
